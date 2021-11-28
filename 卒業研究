@@ -1,0 +1,28 @@
+\documentclass[12pt,a4paper,titlepage]{jsarticle}
+\title{正則連分数の周期性}
+\author{東京理科大学理工学部数学科　\\6118136松下温}
+\date{2022年1月13日}
+\begin{document}
+\maketitle
+\section{序章はじめに}\label{firstsec}
+はじめての数論\footnote{ジョセフ・H・シルヴァーマン著　鈴木治郎訳}にて連分数を学んだ。特に正則連分数の基本性質から、ペル方程式$x^2-Dy^2=1$の解法に応用されることを学んだ。有理数を連分数展開することや無理数を連分数展開することで連分数が有限回で展開されるための必要十分条件や無限回展開することでの性質を示していきたい。そして、無限回連分数展開される数の中で、連分数展開が周期的になる数をまとめていきたい。
+\begin{center}
+\textgt{\Large{記号}}
+\end{center}
+\begin{flushleft}
+\\\mathbb{N}=\{0,1,2,3,…\}　非負整数全体の集合
+\\\mathbb{Z}=\{0,\pm1,\pm2,\pm3,…\} 整数全体の集合
+\\\mathbb{Q} 有理数全体の集合
+\\\mathbb{R}　実数全体の集合
+\\\mathbb{C}　複素数全体の集合
+\end{flushleft}
+\begin{document}
+正則連分数とは、
+\\\begin{center}
+\[
+[$k_0$,$k_1$,$k_2$,…]=$k_0$+\cfrac{1}{$k_1$ +
+                                                  \cfarc{1}{$k_2$+
+                                                    \cfrac{1}{\ddots}}}}
+\]
+\end{center}
+\end{document}
